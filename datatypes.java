@@ -67,3 +67,12 @@ float f1 = 35e3f;
 double d1 = 12E4d;
 System.out.println(f1);
 System.out.println(d1);
+
+
+
+//Boolean types
+
+boolean isJavaFun = true;
+boolean isFishTasty = false;
+System.out.println(isJavaFun) // true
+System.out.println(isFishTasty) //false
