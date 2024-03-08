@@ -46,3 +46,24 @@ System.out.println(myNum2); // 100
 
 short myNum3 = 5000;
 System.out.println(myNum3); // short can store whole numbers from -32768 to 32767
+
+int myNum4 = 100000;
+System.out.println(myNum4) // The int data type can store whole numbers from -2147483648 to 2147483647
+
+long myNum5 = 1500000000L; // must end in L
+System.out.println(myNum5) // The long data type can store whole numbers from -9223372036854775808 to 9223372036854775807
+
+float myNum6 = 5.75f;
+System.out.println(myNum);
+
+double myNum7 = 19.99d;
+System.out.println(myNum);
+
+// Scientific Numbers
+// A floating point number can also be a scientific number with an "e" to indicate the power of 10:
+
+// Example
+float f1 = 35e3f;
+double d1 = 12E4d;
+System.out.println(f1);
+System.out.println(d1);
