@@ -76,3 +76,32 @@ boolean isJavaFun = true;
 boolean isFishTasty = false;
 System.out.println(isJavaFun) // true
 System.out.println(isFishTasty) //false
+
+// Characters
+// data type to store single characters.  must be surrounded by single quotes
+
+char myGrade = 'B';
+System.out.println(myGrade);
+
+char myVar1 = 64, myVar2 = 65, myVar3 = 66;
+System.out.println(myVar1, myVar2, myVar3);
+
+
+// Strings
+// must be surrouded by double quotes;
+
+String greeting = "Hello World"
+System.out.println(greeting)
+
+/*
+Non-Primitive Data Types
+Non-primitive data types are called reference types because they refer to objects.
+
+The main difference between primitive and non-primitive data types are:
+
+Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+A primitive type has always a value, while non-primitive types can be null.
+A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc. You will learn more about these in a later chapter.
+ */
