@@ -48,3 +48,38 @@ The sequence \"  inserts a double quote in a string:
  // The sequence \\ inserts a single backslash in a string:
 
  String txt3 = "The character \\ is called backslash.";
+
+
+
+
+ //EXTRA MATH
+
+ Math.max(5,10)
+ Math.min(20, 500)
+ Math.sqrt(64)
+
+
+ // Boolean Expression
+
+ int d = 10;
+ int e = 11;
+ System.out.println(d > e) //returns false
+
+ System.out.println(14 < 25) //returns true
+
+
+ int myAge = 25
+ int votingAge = 18
+ System.out.println(myAge >= votingAge);
+
+ if(myAge >= votingAge) {
+    System.out.println("Old enough to vote!")
+ } else {
+    System.out.println("Not old enough to vote.")
+ }
+
+
+// Shorthand if...else
+int time = 20;
+String result = (time < 18) ? "GOod Day." : "Good evening"
+System.out.println(result)
