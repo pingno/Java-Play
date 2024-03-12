@@ -12,3 +12,9 @@ System.out.println(greeting.toUpperCase());
 System.out.println(greeting.toLowerCase());
 
 System.out.println(greeting.indexOf("World")) // Outputs 6
+
+
+String firstName = "John";
+String lastName = "Doe";
+System.out.println(firstName + " " + lastName)
+System.out.println(lastName.concat(firstName))
