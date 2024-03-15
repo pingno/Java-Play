@@ -56,3 +56,24 @@ The switch statement selects one of many code blocks to be executed:
     i++;
  }
  while (x < 5);
+
+
+
+ for (int = 0; i < 10; i = i + 2) {
+    if (i == 4) {
+        break;
+    }
+    System.out.println(i);
+ }
+
+ //break will break out of the for loops
+
+
+ for (int j = 0; j < 10; j++){
+    if (j == 4) {
+        continue;
+    }
+    System.out.println(j)
+ }
+
+ //continue will move on to next iteration of loop
